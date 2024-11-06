@@ -14,29 +14,30 @@ Repositori ini mencakup beberapa file utama :
 ## Cara Penggunaan
 Berikut adalah langkah untuk menggunakan data dari file Overview.xlsx:
 
-'''$
+```
 url = "https://github.com/Lusy230/Dataset-Narkotika_199_230/raw/main/Overview.xlsx"
 response = requests.get(url)
 data = pd.read_excel(BytesIO(response.content))
-'''
+```
 
 atau bisa menggunakan
 
-'''$
+```
 git clone https://github.com/Lusy230/Dataset-Narkotika_199_230.git
-'''
+```
 
-'''$
+```
 cd Dataset-Narkotika_199_230
-'''
+```
 
-'''$
+```
 ls
-'''
+```
 
 
 
 ## Credit
 
 Wulan Puspita Rahayu - 20211070311199
+
 Lusy Rohmadhoni - 202110370311230
